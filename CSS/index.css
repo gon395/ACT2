@@ -1,0 +1,28 @@
+body{
+    font-family: "BBad_font" url(Breaking\ Bad.ttf);
+}
+.contenedor{
+    background-image: url("../breaking bad/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.logo{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.poster{
+    width: 700px;
+    height: 300px;;
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+    align-items: center;
+}
+.frase{
+    text-align: center;
+    color: white;
+    
+}

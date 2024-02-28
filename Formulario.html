@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/Formulario.css">
+    <link rel="icon" href="breaking bad/icon.png">
+</head>
+<body>
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <br><form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indique su nombre" required></p>
+            <p>Apellidos: <input type="text" name="apellidos" id="apellidos" placeholder="Indique sus apellidos" required></p>
+            <p>DNI: <input type="text" name="DNI" id="DNI" placeholder="Indique su DNI con letra" required></p>
+            <p>Correo electrónico: <input type="email" name="correo electrónico" id="mail" placeholder="Indique su correo electrónico" required></p>
+            <p>Sexo:   <input type="radio" name="sexo" id="hombre" checked>Hombre
+                    <input type="radio" name="sexo" id="mujer">Mujer</p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha de nacimiento" id="fecha_de_nacimiento" required></p>
+            <fieldset>
+                <legend>Dirección  Postal:</legend>
+                    <p>Calle: <input type="text" name="calle" id="calle" placeholder="Calle o Av." required></p>
+                    <p>Número: <input type="text" name="número" id="numero" placeholder="Número" required></p>
+                    <p>Piso: <input type="text" name="piso" id="piso" placeholder="Piso"></p>
+                    <p>CP: <input type="text" name="CP" id="CP" placeholder="Código Postal" required></p>
+                    <p>Ciudad: <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad" required></p>
+                </fieldset>
+
+        </fieldset>
+        <p>Elige tu personaje:
+            <select name="personaje" id="personaje" required>
+                <option value="Jessie Pinkman">Jessie Pinkman</option>
+                <option value="Walter White">Walter White</option>
+                <option value="Saul Goodman">Saul Goodman</option>
+                <option value="Gustavo Fring">Gustavo Fring</option>
+                <option value="Pollos Hermanos">Pollos Hermanos</option>
+                <option value="Otros personajes">Otros personajes</option>
+            </select>
+        </p>
+    <p>Comentarios:</p>
+    <p><textarea name="comentarios" id="comentarios" cols="50" rows="8" placeholder="Inserte su comentario..."></textarea></p>
+    <p><input type="submit" value="Enviar" class="botonera">
+        <input type="reset" value="Borrar" class="botonera">
+        <input type="file" name="Adjuntar" class="botonera">
+    </p>
+    </form>
+</body>
+</html>
